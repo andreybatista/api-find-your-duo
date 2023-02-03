@@ -105,4 +105,6 @@ app.get('/ads/:id/discord', async (resquet, response) => {
     });
 })
 
-app.listen('3333')
+app.listen(8080||process.env.PORT, ()=>{
+    console.log('server os running ...')
+})
