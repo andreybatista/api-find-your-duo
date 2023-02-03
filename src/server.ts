@@ -13,7 +13,7 @@ app.use(express.json());
 // app.use(cors({
 //     origin: 'https://api.andreycode.com' 
 // }))
-app.use(cors())
+// app.use(cors())
 
 const prisma = new PrismaClient({
     log: ['query']
